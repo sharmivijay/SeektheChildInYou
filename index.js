@@ -12,17 +12,27 @@ var questionTwo = {
    question : "what is the name of the frozen princess? \na.Anna \nb.Elsa \nYour answer: ",
    answer :"b"
  }
-var questionList =[questionOne, questionTwo, questionThree];
+ var questionFour = {
+   question : "Who appoints the guardians to watch over the children of the world? \na.Man in the Moon \nb.Father Christmas \nYour answer: ",
+   answer :"b"
+ }
+
+ var questionFive = {
+   question : "What is the name of the bunny in Zootopia? \na.Judy Hopp \nb.Nick Wilde \nYour answer: ",
+   answer :"b"
+ }
+
+var questionList =[questionOne, questionTwo, questionThree,questionFour, questionFive];
 var score = 0;
 
 var highestScore =[
   {
   name : "Sharmila" ,
-  score :  3
+  score :  5
   },
   {
     name : "Aneena" ,
-  score :  3
+  score :  5
   }
 ]
 function checkAnswerAndIncrementScore(question, answer){
